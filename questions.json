@@ -1,0 +1,470 @@
+[
+  {
+    "question": "Wofür steht die Abkürzung DNS?",
+    "answer": "Domain Name System."
+  },
+  {
+    "question": "Was ist die Hauptaufgabe des DNS?",
+    "answer": "Es übersetzt Namen wie example.org in IP-Adressen, damit Menschen mit Namen statt mit Zahlencodes arbeiten können."
+  },
+  {
+    "question": "Was unterscheidet einen Client von einem Server?",
+    "answer": "Ein Client fordert Daten oder Dienste an (z. B. ein Browser), während ein Server diese Daten oder Dienste bereitstellt (z. B. ein Webserver)."
+  },
+  {
+    "question": "Was sind die Hauptmerkmale eines Fat Clients?",
+    "answer": "Ein Fat Client besitzt viel eigene Rechenleistung, führt Programme größtenteils selbst aus und verfügt meist über ein lokales Betriebssystem sowie lokale Anwendungen."
+  },
+  {
+    "question": "Was zeichnet einen Thin Client aus?",
+    "answer": "Ein Thin Client ist leistungsschwach, besitzt nur minimale lokale Software und lagert den Großteil der Rechenarbeit an einen Server aus."
+  },
+  {
+    "question": "Was bedeutet Autorisierung im Netzwerkumfeld?",
+    "answer": "Autorisierung legt fest, welche Rechte ein Benutzer hat und ob er auf eine bestimmte Ressource zugreifen darf."
+  },
+  {
+    "question": "Was versteht man unter Accounting?",
+    "answer": "Accounting bezeichnet die Protokollierung oder Abrechnung der Nutzung, um festzuhalten, wer wann welche Netzwerkressource genutzt hat."
+  },
+  {
+    "question": "Wie viele Bit ergeben ein Byte?",
+    "answer": "1 Byte entspricht exakt 8 Bit."
+  },
+  {
+    "question": "Wie rechnet man eine Dateigröße von MByte in Mbit um?",
+    "answer": "Die Dateigröße in MByte muss mit 8 multipliziert werden (Mbit = MByte x 8)."
+  },
+  {
+    "question": "Wie lautet die Formel zur Berechnung der Übertragungsdauer?",
+    "answer": "Zeit in Sekunden = Datenmenge in Mbit / Übertragungsrate in Mbit/s."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen Upload und Download?",
+    "answer": "Beim Download fließen Daten vom Netzwerk zum eigenen Gerät, beim Upload werden Daten vom eigenen Gerät ins Netzwerk gesendet."
+  },
+  {
+    "question": "Was unterscheidet die serielle von der parallelen Übertragung?",
+    "answer": "Bei der seriellen Übertragung werden Bits nacheinander übertragen, während bei der parallelen Übertragung mehrere Bits gleichzeitig gesendet werden."
+  },
+  {
+    "question": "Erkläre die Begriffe Simplex, Halbduplex und Vollduplex.",
+    "answer": "Simplex erlaubt Kommunikation nur in eine Richtung, Halbduplex in beide Richtungen (aber nicht gleichzeitig) und Vollduplex in beide Richtungen gleichzeitig."
+  },
+  {
+    "question": "Was ist ein wesentliches Merkmal der Paketvermittlung?",
+    "answer": "Daten werden in Pakete aufgeteilt, die unterschiedliche Wege nehmen können, es gibt keine feste Leitung für die gesamte Übertragung."
+  },
+  {
+    "question": "Aus wie vielen Schichten besteht das OSI-Modell?",
+    "answer": "Das OSI-Modell besteht aus 7 Schichten."
+  },
+  {
+    "question": "Auf welcher OSI-Schicht arbeitet ein Router?",
+    "answer": "Ein Router arbeitet auf Schicht 3 (Vermittlungsschicht)."
+  },
+  {
+    "question": "Wie lautet die korrekte Bezeichnung der Dateneinheit auf Schicht 2?",
+    "answer": "Die Dateneinheit auf Schicht 2 wird als Frame bezeichnet."
+  },
+  {
+    "question": "Wie sieht die Schachtelung der Daten von Schicht 2 bis Schicht 7 vereinfacht aus?",
+    "answer": "Ethernet-Frame (L2) -> IPv4-Paket (L3) -> TCP-Segment (L4) -> Anwendungsdaten/HTTP (L7)."
+  },
+  {
+    "question": "Aus wie vielen Bit besteht eine IPv4-Adresse?",
+    "answer": "Eine IPv4-Adresse besteht aus 32 Bit."
+  },
+  {
+    "question": "Wie wird eine IPv4-Adresse üblicherweise dargestellt?",
+    "answer": "In punktgetrennter dezimaler Schreibweise mit 4 Oktetten (z. B. 192.168.10.25)."
+  },
+  {
+    "question": "Woraus setzt sich eine IPv4-Adresse zusammen?",
+    "answer": "Sie besteht aus einem Netzanteil und einem Hostanteil."
+  },
+  {
+    "question": "Was charakterisiert eine IPv6-Adresse im Vergleich zu IPv4?",
+    "answer": "IPv6 verwendet eine hexadezimale Schreibweise und bietet einen deutlich größeren Adressraum."
+  },
+  {
+    "question": "Was ist eine MAC-Adresse und wie ist sie aufgebaut?",
+    "answer": "Die MAC-Adresse ist die physische Adresse einer Schnittstelle, besteht aus 48 Bit (6 Oktette) und enthält eine Herstellerkennung (OUI) sowie eine Gerätekennung."
+  },
+  {
+    "question": "Erkläre Unicast, Broadcast und Multicast.",
+    "answer": "Unicast geht an genau einen Empfänger, Broadcast an alle Teilnehmer im lokalen Netz und Multicast an eine bestimmte Gruppe."
+  },
+  {
+    "question": "Was definiert einen Socket?",
+    "answer": "Ein Socket ist die Kombination aus einer IP-Adresse und einer Portnummer."
+  },
+  {
+    "question": "Was ist die Aufgabe des Address Resolution Protocol (ARP)?",
+    "answer": "ARP ermittelt zu einer bekannten IPv4-Adresse die zugehörige MAC-Adresse im lokalen Netzwerk."
+  },
+  {
+    "question": "Welche Funktion übernimmt DHCP?",
+    "answer": "DHCP vergibt automatisch Netzwerkeinstellungen wie IP-Adresse, Subnetzmaske, Gateway und DNS-Server an Clients."
+  },
+  {
+    "question": "Was sind die Hauptunterschiede zwischen TCP und UDP?",
+    "answer": "TCP ist verbindungsorientiert und zuverlässig (bestätigt Empfang), während UDP verbindungslos, schneller und einfacher ist (keine Bestätigung)."
+  },
+  {
+    "question": "Was unterscheidet einen Switch von einem Router?",
+    "answer": "Ein Switch verbindet Geräte innerhalb eines lokalen Netzes (L2), ein Router verbindet verschiedene Netzwerke miteinander und trifft Routing-Entscheidungen (L3)."
+  },
+  {
+    "question": "Nenne fünf typische Netzwerktopologien.",
+    "answer": "Stern, Bus, Ring, Baum und vermaschte Topologie."
+  },
+  {
+    "question": "Was ist das Ziel von Redundanz in einem Netzwerk?",
+    "answer": "Redundanz schafft Reserven, erhöht die Verfügbarkeit und vermeidet einen Totalausfall bei Defekten einzelner Komponenten."
+  },
+  {
+    "question": "Was ist ein VLAN und wozu dient ein Trunk?",
+    "answer": "Ein VLAN ist eine logische Aufteilung eines physischen Netzes, ein Trunk transportiert VLAN-Informationen (Tags) über eine gemeinsame Leitung zwischen Switches."
+  },
+  {
+    "question": "Was bewirkt die Subnetzmaske bei einer IPv4-Adresse?",
+    "answer": "Die Subnetzmaske legt fest, wie viele Bits der 32-Bit-Adresse zum Netzanteil gehören, die restlichen Bits bilden den Hostanteil."
+  },
+  {
+    "question": "Wie berechnet man die Anzahl nutzbarer Hosts in einem Subnetz?",
+    "answer": "Anzahl nutzbarer Hosts = 2^h - 2 (wobei h die Anzahl der Hostbits ist)."
+  },
+  {
+    "question": "Warum müssen bei der Berechnung der nutzbaren Hosts zwei Adressen abgezogen werden?",
+    "answer": "Eine Adresse ist für die Netzwerkadresse reserviert und eine für die Broadcastadresse."
+  },
+  {
+    "question": "Wie viele nutzbare Hosts bietet ein /24-Netz?",
+    "answer": "Ein /24-Netz hat 8 Hostbits und bietet somit 254 nutzbare Hosts (2^8 - 2)."
+  },
+  {
+    "question": "Wofür steht VPN und was ist seine Funktion?",
+    "answer": "VPN steht für Virtual Private Network und ermöglicht private Kommunikation über ein öffentliches Netz."
+  },
+  {
+    "question": "Unterscheide Site-to-Site-VPN und End-to-Site-VPN.",
+    "answer": "Site-to-Site verbindet zwei ganze Netzwerke, End-to-Site (Remote Access) bindet ein einzelnes entferntes Gerät in ein Netzwerk ein."
+  },
+  {
+    "question": "Wandle die Dezimalzahl 255 in Binär um.",
+    "answer": "11111111₂"
+  },
+  {
+    "question": "Wandle die Binärzahl 10110100 in Dezimal um.",
+    "answer": "180"
+  },
+  {
+    "question": "Wie viele Bit hat ein Byte?",
+    "answer": "8 Bit"
+  },
+  {
+    "question": "Wie viele Werte kann ein Byte darstellen?",
+    "answer": "256 Werte (0–255)"
+  },
+  {
+    "question": "Was ist der Dezimalwert für die Binärzahl 00001111?",
+    "answer": "15"
+  },
+  {
+    "question": "Welchen Dezimalwert hat die Binärzahl 1010?",
+    "answer": "10"
+  },
+  {
+    "question": "Wie viele Byte sind 1 Kibibyte (KiB)?",
+    "answer": "1.024 Byte"
+  },
+  {
+    "question": "Wie viele Byte sind 1 Mebibyte (MiB)?",
+    "answer": "1.048.576 Byte (= 1.024 × 1.024)"
+  },
+  {
+    "question": "Wie viele Megabyte sind 1 Gigabyte?",
+    "answer": "1.000 Megabyte"
+  },
+  {
+    "question": "Was ist der Unterschied zwischen MB und MiB?",
+    "answer": "MB (Megabyte) = 1.000.000 Byte; MiB (Mebibyte) = 1.048.576 Byte (= 1.024 × 1.024)"
+  },
+  {
+    "question": "Wie lange dauert eine Übertragung von 1 GiB bei 100 Mbit/s?",
+    "answer": "Ca. 85,9 Sekunden (1 GiB = 8.589.934.592 Bit ÷ 100.000.000 bit/s)"
+  },
+  {
+    "question": "Eine Datei ist 500 MB groß. Wie lange dauert der Download bei 50 Mbit/s?",
+    "answer": "80 Sekunden (500 MB = 4.000 Mbit ÷ 50 Mbit/s)"
+  },
+  {
+    "question": "Was bedeutet die Einheit Gbit/s?",
+    "answer": "Gigabit pro Sekunde - Maßeinheit für Datentransferraten im Netzwerk"
+  },
+  {
+    "question": "Wie lang ist eine IPv4-Adresse in Bit?",
+    "answer": "32 Bit"
+  },
+  {
+    "question": "Wie lang ist eine IPv6-Adresse in Bit?",
+    "answer": "128 Bit"
+  },
+  {
+    "question": "Was ist eine Subnetzmaske und wofür wird sie verwendet?",
+    "answer": "Eine Subnetzmaske trennt den Netzwerk- vom Hostteil einer IP-Adresse und legt fest, wie viele Hosts ein Netz hat."
+  },
+  {
+    "question": "Wie viele Hosts gibt es im Netz 192.168.1.0/24?",
+    "answer": "254 nutzbare Hosts (2⁸ − 2 = 254)"
+  },
+  {
+    "question": "Was ist die Subnetzmaske für /24 in Dezimalschreibweise?",
+    "answer": "255.255.255.0"
+  },
+  {
+    "question": "Was ist die Subnetzmaske für /16?",
+    "answer": "255.255.0.0"
+  },
+  {
+    "question": "Was bedeutet CIDR-Notation (z. B. /24)?",
+    "answer": "Classless Inter-Domain Routing - gibt die Anzahl der Netzwerkbits in der Subnetzmaske an."
+  },
+  {
+    "question": "Was sind typische private IP-Adressen (nach Konvention RFC 1918?)",
+    "answer": "10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16"
+  },
+  {
+    "question": "Was ist die Loopback-Adresse bei IPv4?",
+    "answer": "127.0.0.1"
+  },
+  {
+    "question": "Was ist der Unterschied zwischen statischer und dynamischer IP-Vergabe?",
+    "answer": "Statisch: manuell fest konfiguriert. Dynamisch: automatisch via DHCP vergeben."
+  },
+  {
+    "question": "Was macht ein DHCP-Server?",
+    "answer": "Er vergibt IP-Adressen, Subnetzmasken, Standardgateway und DNS-Server automatisch an Clients."
+  },
+  {
+    "question": "Welche IP-Adresse ist die Broadcastadresse im Netz 192.168.10.0/24?",
+    "answer": "192.168.10.255"
+  },
+  {
+    "question": "Wie viele nutzbare Hostadressen hat ein /30-Netz?",
+    "answer": "2 nutzbare Adressen (2² − 2 = 2)"
+  },
+  {
+    "question": "Wie viele Schichten hat das OSI-Modell?",
+    "answer": "7 Schichten"
+  },
+  {
+    "question": "Nenne die 7 Schichten des OSI-Modells von unten nach oben.",
+    "answer": "1 Bitübertragung, 2 Sicherung, 3 Vermittlung, 4 Transport, 5 Sitzung, 6 Darstellung, 7 Anwendung"
+  },
+  {
+    "question": "Auf welcher OSI-Schicht arbeitet ein Switch?",
+    "answer": "Schicht 2 (Sicherungsschicht) - ein Layer-3-Switch auch auf Schicht 3"
+  },
+  {
+    "question": "Auf welcher OSI-Schicht arbeitet ein Router?",
+    "answer": "Schicht 3 (Vermittlungsschicht / Network Layer)"
+  },
+  {
+    "question": "Welches Protokoll arbeitet auf OSI-Schicht 4?",
+    "answer": "TCP und UDP (Transportschicht)"
+  },
+  {
+    "question": "Nenne typische Protokolle die auf OSI-Schicht 4 (Transportschicht) agieren?",
+    "answer": "TCP und UDP"
+  },
+  {
+    "question": "Auf welcher OSI-Schicht wird die MAC-Adresse verwendet?",
+    "answer": "Schicht 2 (Sicherungsschicht)"
+  },
+  {
+    "question": "Was macht die Schicht 1 (Bitübertragungsschicht)?",
+    "answer": "Sie überträgt rohe Bits als elektrische, optische oder Funksignale über das physische Medium."
+  },
+  {
+    "question": "Wie viele Schichten hat das TCP/IP-Modell?",
+    "answer": "4 Schichten"
+  },
+  {
+    "question": "Nenne die 4 Schichten des TCP/IP-Modells.",
+    "answer": "1 Netzzugang, 2 Internet, 3 Transport, 4 Anwendung"
+  },
+  {
+    "question": "Was ist der Unterschied zwischen TCP und UDP?",
+    "answer": "TCP: verbindungsorientiert, zuverlässig, Bestätigung. UDP: verbindungslos, schnell, keine Garantie der Zustellung."
+  },
+  {
+    "question": "Was versteht man unter dem 3-Wege-Handshake bei TCP?",
+    "answer": "SYN → SYN-ACK → ACK: Verbindungsaufbau zwischen Client und Server zur gesicherten Kommunikation."
+  },
+  {
+    "question": "Welche Portnummer hat HTTP?",
+    "answer": "Port 80"
+  },
+  {
+    "question": "Welche Portnummer hat HTTPS?",
+    "answer": "Port 443"
+  },
+  {
+    "question": "Welche Portnummer hat SSH?",
+    "answer": "Port 22"
+  },
+  {
+    "question": "Welche Portnummer hat DNS?",
+    "answer": "Port 53"
+  },
+  {
+    "question": "Was ist der Unterschied zwischen einem Hub und einem Switch?",
+    "answer": "Hub: sendet Daten an alle Ports. Switch: leitet Daten gezielt anhand der MAC-Adresse weiter."
+  },
+  {
+    "question": "Was ist ARP und wofür wird es benötigt?",
+    "answer": "Address Resolution Protocol - löst IP-Adressen in MAC-Adressen auf, um im lokalen Netz kommunizieren zu können."
+  },
+  {
+    "question": "Was macht DNS?",
+    "answer": "Das Domain Name System löst Domainnamen in IP-Adressen auf."
+  },
+  {
+    "question": "Was ist ein VLAN?",
+    "answer": "Virtual Local Area Network - logische Trennung eines physischen Netzes in mehrere virtuelle Netze."
+  },
+  {
+    "question": "Was bedeutet RAID?",
+    "answer": "Redundant Array of Independent Disks - Zusammenschluss mehrerer Festplatten für Redundanz oder Performance."
+  },
+  {
+    "question": "Wie funktioniert RAID 0?",
+    "answer": "Striping - Daten werden auf mehrere Platten verteilt. Höhere Performance, aber keine Redundanz."
+  },
+  {
+    "question": "Wie funktioniert RAID 1?",
+    "answer": "Mirroring - Daten werden gespiegelt auf 2 Platten. Eine Platte kann ausfallen."
+  },
+  {
+    "question": "Wie funktioniert RAID 5?",
+    "answer": "Striping mit Parität - benötigt mind. 3 Platten. Eine Platte darf ausfallen."
+  },
+  {
+    "question": "Wie funktioniert RAID 6?",
+    "answer": "Wie RAID 5, aber mit doppelter Parität - mind. 4 Platten, 2 Platten dürfen ausfallen."
+  },
+  {
+    "question": "Was ist RAID 10 (1+0)?",
+    "answer": "Kombination aus RAID 1 und RAID 0: gespiegelte Paare werden gestrippt. Hohe Performance + Redundanz."
+  },
+  {
+    "question": "Ersetzt RAID eine Datensicherung (Backup)?",
+    "answer": "Nein. RAID schützt vor Hardwareausfall, aber nicht vor Löschen, Malware oder Bedienfehlern."
+  },
+  {
+    "question": "Was sind die drei klassischen Backup-Strategien?",
+    "answer": "Voll-Backup, inkrementelles Backup, differenzielles Backup"
+  },
+  {
+    "question": "Was ist ein Voll-Backup?",
+    "answer": "Eine vollständige Sicherung aller Daten."
+  },
+  {
+    "question": "Was ist ein inkrementelles Backup?",
+    "answer": "Sichert nur die Änderungen seit dem letzten Backup."
+  },
+  {
+    "question": "Was ist ein differenzielles Backup?",
+    "answer": "Sichert alle Änderungen seit dem letzten Voll-Backup."
+  },
+  {
+    "question": "Was ist die 3-2-1-Backup-Regel?",
+    "answer": "3 Kopien der Daten, auf 2 verschiedenen Medien, davon 1 Kopie extern/offsite."
+  },
+  {
+    "question": "Wie zeigt man unter Linux alle aktiven Netzwerkverbindungen an?",
+    "answer": "ss -tulpn"
+  },
+  {
+    "question": "Wie lautet der Befehl, um die Routingtabelle unter Linux anzuzeigen?",
+    "answer": "ip route"
+  },
+  {
+    "question": "Mit welchem Befehl testet man unter Linux die Erreichbarkeit eines Hosts?",
+    "answer": "ping <hostname oder IP>"
+  },
+  {
+    "question": "Was macht der Befehl traceroute?",
+    "answer": "Er zeigt den Pfad eines Pakets zum Zielhost und die Latenz pro Hop."
+  },
+  {
+    "question": "Was ist SSH und auf welchem Port läuft es?",
+    "answer": "Secure Shell - verschlüsseltes Protokoll für Remote-Verwaltung. Standard: Port 22."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen LAN und WAN?",
+    "answer": "LAN ist ein lokales Netzwerk, WAN ein weiträumiges Netzwerk wie das Internet."
+  },
+  {
+    "question": "Was ist ein VPN?",
+    "answer": "Virtual Private Network - ein verschlüsselter Tunnel über ein öffentliches Netz."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen IPv4 und IPv6?",
+    "answer": "IPv4 nutzt 32 Bit, IPv6 128 Bit und bietet deutlich mehr Adressen."
+  },
+  {
+    "question": "Mit welchem Windows-Befehl prüft man die aktuelle IP-Konfiguration des Clients?",
+    "answer": "ipconfig (Kurzübersicht) bzw. ipconfig /all (vollständige Details)"
+  },
+  {
+    "question": "Was ist der Befehl 'nslookup' und wofür wird er genutzt?",
+    "answer": "Zum Abfragen von DNS-Einträgen - z. B. nslookup google.de zeigt die IP-Adresse zur Domain."
+  },
+  {
+    "question": "Was zeigt 'netstat -an' unter Windows?",
+    "answer": "Alle aktiven Netzwerkverbindungen und offenen Ports mit Status."
+  },
+  {
+    "question": "Was bedeutet die Abkürzung DHCP?",
+    "answer": "Dynamic Host Configuration Protocol"
+  },
+  {
+    "question": "Was ist der DHCP Bereich?",
+    "answer": "Der definierte Adresspool, aus dem der DHCP-Server IP-Adressen vergeben darf."
+  },
+  {
+    "question": "Was ist SMB?",
+    "answer": "Server Message Block - Protokoll für Datei- und Druckerfreigaben im Windows-Netzwerk."
+  },
+  {
+    "question": "Was ist FTP?",
+    "answer": "File Transfer Protocol"
+  },
+  {
+    "question": "Was ist der Unterschied zwischen FTP und SFTP?",
+    "answer": "FTP überträgt unverschlüsselt. SFTP (SSH File Transfer Protocol) überträgt verschlüsselt über Port 22."
+  },
+  {
+    "question": "Was ist eine Firewall?",
+    "answer": "Eine Software auf dem System, die eingehenden und ausgehenden Datenverkehr kontrolliert."
+  },
+  {
+    "question": "Was ist ein Standardgateway und wofür wird es genutzt?",
+    "answer": "Die IP-Adresse des Routers im lokalen Netz. Der Client sendet Pakete an das Gateway, wenn das Ziel außerhalb des Subnetzes liegt."
+  },
+  {
+    "question": "Was bedeutet 'Request timed out' bei ping?",
+    "answer": "Die Pakete kommen beim Ziel an, aber es wird keine Antwort zurückgeschickt."
+  },
+  {
+    "question": "Was bedeutet 'Destination host unreachable' bei ping?",
+    "answer": "Das Paket kann nicht zugestellt werden - z. B. kein Route zum Ziel, Gateway nicht erreichbar."
+  },
+  {
+    "question": "Was ist Wireshark und wozu wird es eingesetzt?",
+    "answer": "Ein Netzwerk-Protokoll-Analyzer (Sniffer), der Netzwerkpakete mitschneidet und analysiert - zur detaillierten Fehlersuche."
+  }
+]
