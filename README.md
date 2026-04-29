@@ -1,1 +1,1 @@
-Quiz App for LF03
+Quiz App
