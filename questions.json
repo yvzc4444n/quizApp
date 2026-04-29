@@ -398,5 +398,101 @@
   {
     "question": "Warum sind Stellenausschreibungen für Hacker wertvoll?",
     "answer": "Sie enthalten oft detaillierte Informationen über die im Unternehmen eingesetzten Technologien und Infrastrukturen."
+  },
+  {
+    "question": "Was sind die drei Unterkategorien der Formalziele eines Unternehmens?",
+    "answer": "Zu den Formalzielen gehören ökonomische Ziele, ökologische Ziele und soziale Ziele."
+  },
+  {
+    "question": "Erkläre das Schutzziel 'Verbindlichkeit' (Non-Repudiation) in der Kryptographie.",
+    "answer": "Verbindlichkeit stellt sicher, dass der Urheber einer Nachricht im Nachhinein nicht abstreiten kann, diese Nachricht versendet zu haben."
+  },
+  {
+    "question": "Was versteht man unter dem ergänzenden Schutzziel 'Zurechenbarkeit' (Accountability)?",
+    "answer": "Zurechenbarkeit bedeutet, dass jede durchgeführte Handlung im System einem Partner oder Benutzer eindeutig zugeordnet werden kann."
+  },
+  {
+    "question": "Nenne drei Kategorien von Risikoquellen (Gefährdungen) neben böswilligen Angriffen (Adversarial).",
+    "answer": "Weitere Quellen sind Accidental (versehentliche Handlungen), Structural (strukturelle bzw. technische Defekte) und Environmental (Umwelteinflüsse wie Feuer oder Erdbeben)."
+  },
+  {
+    "question": "Wie lautet die mathematische Formel zur Berechnung der benötigten Schlüsselanzahl bei n Teilnehmern in einem symmetrischen Verfahren?",
+    "answer": "Die Anzahl der Schlüssel berechnet sich nach der Formel: Kn = (n * (n - 1)) / 2."
+  },
+  {
+    "question": "Um welchen Faktor verlängert sich die Entschlüsselungszeit bei einem Brute-Force-Angriff, wenn die Schlüssellänge um 14 Bit erhöht wird?",
+    "answer": "Die Zeit erhöht sich um den Faktor 2^14, was einer 16.384-fachen Verlängerung der Dauer entspricht."
+  },
+  {
+    "question": "Beschreibe die zwei Schritte der hybriden Verschlüsselung beim Senden einer E-Mail (z. B. via PGP).",
+    "answer": "Zuerst wird die Nachricht mit einem Session Key symmetrisch chiffriert, danach wird dieser Session Key mit dem öffentlichen Schlüssel des Empfängers asymmetrisch verschlüsselt."
+  },
+  {
+    "question": "Warum bezeichnet man eine Hash-Funktion als 'Einwegfunktion'?",
+    "answer": "Weil sie den Klartext in eine Prüfsumme umwandelt, aus der man den ursprünglichen Klartext technisch nicht wieder zurückrechnen kann."
+  },
+  {
+    "question": "Welche Eigenschaft muss ein Hash-Wert aufweisen, wenn sich auch nur ein einzelnes Zeichen im Klartext ändert?",
+    "answer": "Es muss sofort ein völlig unterschiedlicher Hash-Wert erkennbar sein (Lawineneffekt), um Manipulationen oder Fehler sofort aufzudecken."
+  },
+  {
+    "question": "Wofür stehen die Begriffe im 'Triple A'-Modell (AAA) der Zugriffskontrolle?",
+    "answer": "AAA steht für Authentication (Identitätsprüfung), Authorization (Zuweisung von Rechten) und Accounting (Protokollierung und Zurechnung der Handlungen)."
+  },
+  {
+    "question": "Nenne zwei spezifische Parameter einer Passwort-Richtlinie neben der Passwortkomplexität und der Mindestlänge.",
+    "answer": "Wichtige Parameter sind die Sperrdauer (nach einer Anzahl von Fehlversuchen) und die Kennwortlebensdauer (Zeitintervall bis zum erzwungenen Wechsel)."
+  },
+  {
+    "question": "Was ist ein 'RAT' (Remote Access Trojaner) und was unterscheidet ihn von herkömmlicher Malware?",
+    "answer": "Ein RAT ist ein Trojaner, der dem Angreifer die absolute Fernkontrolle über das infizierte System und dessen Ressourcen ermöglicht."
+  },
+  {
+    "question": "Definiere den Begriff 'Logic Bomb' (Logikbombe).",
+    "answer": "Eine Logikbombe ist Schadcode, der erst beim Eintreten einer ganz bestimmten Bedingung, wie etwa einem spezifischen Datum oder einer Benutzeraktion, aktiv wird."
+  },
+  {
+    "question": "Was versteht man unter 'Bloatware' oder 'Crapware'?",
+    "answer": "Dabei handelt es sich um unnötige Software, die oft auf Neugeräten vorinstalliert ist und Systemressourcen verbraucht, ohne dem Benutzer einen Nutzen zu bringen."
+  },
+  {
+    "question": "Welche Informationen kann ein Angreifer durch eine WHOIS-Abfrage zu einer Domain erhalten?",
+    "answer": "Er erhält Informationen über den Inhaber (Name, E-Mail, Telefon, Adresse) sowie die IP-Adressen der zuständigen DNS-Server."
+  },
+  {
+    "question": "Warum stellen manipulierte DNS-Caches ein Sicherheitsrisiko dar?",
+    "answer": "Da DNS-Caches nicht 'autoritativ' sind, können sie manipuliert werden, um Anfragen auf falsche IP-Adressen (z. B. Phishing-Seiten) umzuleiten."
+  },
+  {
+    "question": "Nenne zwei wichtige Scanning-Methoden neben dem klassischen Port-Scan.",
+    "answer": "Wichtige Methoden sind Host Discovery (aktive Knoten finden) sowie Vulnerability-Scanning (Suche nach bekannten Schwachstellen in Diensten)."
+  },
+  {
+    "question": "Was beschreibt das 'Tier-Modell' (Tier 0 bis Tier 2) in der Privilegien-Eskalation?",
+    "answer": "Es beschreibt die Hierarchie der Systembereiche: Tier 0 (Kernel/höchste Rechte), Tier 1 (Gerätetreiber) und Tier 2 (Anwendungen/Benutzer mit den geringsten Rechten)."
+  },
+  {
+    "question": "Wofür steht das Kürzel 'SA' (Share Alike) in einer Creative-Commons-Lizenz?",
+    "answer": "Es bedeutet, dass ein Werk nach einer Bearbeitung nur unter denselben Lizenzbedingungen wie das Original weitergegeben werden darf."
+  },
+  {
+    "question": "Was ist eine 'Concurrent Access License' (CAL)?",
+    "answer": "Dies ist eine Lizenzform, die den gleichzeitigen Zugriff einer festgelegten Anzahl von Nutzern oder Geräten auf eine Software erlaubt."
+  },
+  {
+    "question": "Welche spezifische Aufgabe hat ein 'Security-Forensiker' nach einem Sicherheitsvorfall?",
+    "answer": "Er führt die digitale Spurensicherung durch und untersucht Systeme auf Beweise für einen Einbruch oder Manipulationen."
+  },
+  {
+    "question": "Nenne drei internationale Zertifizierungen für Experten im Bereich IT-Sicherheitsmanagement oder Auditierung.",
+    "answer": "Dazu zählen CISM (Certified Information Security Manager), CISA (Certified Information Systems Auditor) und CISSP (Certified Information Systems Security Professional)."
+  },
+  {
+    "question": "Wie ist ein Baustein im IT-Grundschutz-Kompendium des BSI grundsätzlich strukturiert (3 Hauptteile)?",
+    "answer": "Ein Baustein besteht aus einer Beschreibung, der spezifischen Gefährdungslage und den daraus resultierenden Anforderungen."
+  },
+  {
+    "question": "Welche drei Anforderungsstufen werden in den BSI-IT-Grundschutz-Bausteinen unterschieden?",
+    "answer": "Es wird unterschieden zwischen Basis-Anforderungen (B), Standard-Anforderungen (S) und Anforderungen bei erhöhtem Schutzbedarf (H)."
   }
 ]
