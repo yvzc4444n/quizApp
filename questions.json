@@ -1,194 +1,402 @@
 [
-      {
-        "question": "Was ist der Unterschied zwischen Safety (Betriebssicherheit) und Security (Angriffssicherheit)?",
-        "answer": "Safety befasst sich mit der Funktionssicherheit und Unfallvermeidung (Schutz vor unbeabsichtigten Fehlern), während Security die Informationssicherheit und den Schutz vor böswilligen Angriffen und unbefugtem Zugang fokussiert."
-      },
-      {
-        "question": "Nenne die drei zentralen Schutzziele der Informationssicherheit (CIA-Triade).",
-        "answer": "Vertraulichkeit (Confidentiality), Integrität (Integrity) und Verfügbarkeit (Availability)."
-      },
-      {
-        "question": "Definiere das Schutzziel 'Integrität'.",
-        "answer": "Integrität garantiert die Korrektheit von Informationen und stellt sicher, dass Daten nicht unbemerkt oder unbefugt verändert wurden."
-      },
-      {
-        "question": "Was versteht man unter dem Begriff 'TOM' im Kontext der Datensicherheit?",
-        "answer": "TOM steht für Technische und Organisatorische Maßnahmen. Es sind Maßnahmen zum Schutz von Daten vor Verlust, Manipulation und unbefugtem Zugriff."
-      },
-      {
-        "question": "Warum ist 'Authentizität' ein wichtiges ergänzendes Schutzziel?",
-        "answer": "Es gewährleistet die Echtheit, Überprüfbarkeit und Vertrauenswürdigkeit eines Objekts oder Absenders."
-      },
-      {
-        "question": "Was beschreibt das Schutzziel der 'Verfügbarkeit'?",
-        "answer": "Dass Ressourcen und Informationen für berechtigte Benutzer zum geforderten Zeitpunkt zur Verfügung stehen."
-      },
-      {
-        "question": "Vergleiche Sachziele mit Formalzielen im Unternehmenskontext.",
-        "answer": "Sachziele beziehen sich auf die konkrete Leistungserstellung (z. B. IT-Sicherheit), während Formalziele den Erfolg dieser Leistung messen (z. B. ökonomische, ökologische oder soziale Ziele)."
-      },
-      {
-        "question": "Was passiert, wenn die Vertraulichkeit von Daten verletzt wird?",
-        "answer": "Sensible Informationen gelangen an unbefugte Dritte, was zu Reputationsverlust, rechtlichen Konsequenzen (DSGVO-Strafen) oder Wettbewerbsnachteilen führen kann."
-      },
-      {
-        "question": "Wer trägt die Gesamtverantwortung für die Informationssicherheit in einem Unternehmen?",
-        "answer": "Die oberste Leitungsebene (Geschäftsführung). Sie entscheidet über den Umgang mit Risiken und stellt Ressourcen bereit."
-      },
-      {
-        "question": "Welche Konsequenz hat die Delegation von Aufgaben durch die Geschäftsführung?",
-        "answer": "Nur die Durchführung der Aufgaben wird übertragen; die Letztverantwortung verbleibt immer bei der Leitung."
-      },
-      {
-        "question": "Was ist die Hauptaufgabe eines Informationssicherheitsbeauftragten (ISB)?",
-        "answer": "Der ISB koordiniert die Informationssicherheit, erstellt Sicherheitsleitlinien und berichtet an die oberste Leitung."
-      },
-      {
-        "question": "Wann ist ein Unternehmen nach DSGVO (§ 38 BDSG) zur Bestellung eines Datenschutzbeauftragten (DSB) verpflichtet?",
-        "answer": "Wenn in der Regel mindestens 20 Personen ständig mit der automatisierten Verarbeitung personenbezogener Daten beschäftigt sind."
-      },
-      {
-        "question": "Welche Rollen stimmen sich im 'Sicherheitsdreieck' typischerweise ab?",
-        "answer": "Der ISB, der Datenschutzbeauftragte (DSB) und der Qualitätsmanagementbeauftragte (QMB) unter Berichterstattung an die Geschäftsführung."
-      },
-      {
-        "question": "Nenne drei operative Aufgaben der obersten Leitungsebene in der IT-Sicherheit.",
-        "answer": "Festlegung von Strategien, Bereitstellung von Budget/Personal und Verabschiedung von Richtlinien."
-      },
-      {
-        "question": "Welches Gesetz regelt primär den Schutz kritischer Infrastrukturen (KRITIS)?",
-        "answer": "Das IT-Sicherheitsgesetz (IT-SiG) bzw. das BSI-Gesetz (BSIG)."
-      },
-      {
-        "question": "Nenne zwei Grundprinzipien der DSGVO.",
-        "answer": "Zweckbindung, Datenminimierung (Datensparsamkeit), Speicherbegrenzung und Rechenschaftspflicht."
-      },
-      {
-        "question": "Welches Recht hat eine Person laut DSGVO, wenn ihre Daten veraltet sind?",
-        "answer": "Das Recht auf Berichtigung."
-      },
-      {
-        "question": "Warum ist das Urheberrechtsgesetz (UrhG) für IT-Mitarbeiter relevant?",
-        "answer": "Es untersagt die Nutzung oder Verbreitung von Software ohne gültige Lizenz."
-      },
-      {
-        "question": "Was ist der ISO/IEC 27001 Standard?",
-        "answer": "Ein international anerkannter Standard für Informationssicherheits-Managementsysteme (ISMS)."
-      },
-      {
-        "question": "Wann können Webseitenbetreiber für externe Links haftbar gemacht werden?",
-        "answer": "Wenn sie bewusst auf rechtswidrige Inhalte verlinken oder sich diese Inhalte zu eigen machen."
-      },
-      {
-        "question": "Was ist das IT-Grundschutz-Kompendium?",
-        "answer": "Eine vom BSI herausgegebene Basis für IT-Sicherheit, die Bausteine mit Anforderungen für verschiedene Schichten (z. B. Anwendungen, Systeme, Netze) enthält."
-      },
-      {
-        "question": "Erkläre den PDCA-Zyklus im Kontext des Sicherheitsmanagements.",
-        "answer": "Plan (Planen), Do (Umsetzen), Check (Überprüfen), Act (Verbessern/Handeln). Er dient der kontinuierlichen Optimierung des ISMS."
-      },
-      {
-        "question": "Welche drei Schutzbedarfskategorien definiert das BSI?",
-        "answer": "Normal (begrenzte Auswirkungen), Hoch (beträchtliche Auswirkungen) und Sehr Hoch (existentiell bedrohliche/katastrophale Auswirkungen)."
-      },
-      {
-        "question": "Was unterscheidet Schadenskategorien von Schutzbedarfskategorien?",
-        "answer": "Schadenskategorien bewerten das konkrete Schadensausmaß eines Ausfalls (niedrig bis sehr hoch), während Schutzbedarfskategorien die generelle Sensibilität eines Objekts klassifizieren."
-      },
-      {
-        "question": "In welche vier Bereiche lässt sich ein Informationsverbund nach BSI unterteilen?",
-        "answer": "Organisatorisch, Infrastruktur, Personell und Technisch."
-      },
-      {
-        "question": "Was enthalten die Bausteine des IT-Grundschutzes neben der Beschreibung?",
-        "answer": "Spezifische Gefährdungslagen und Anforderungen (Basis-, Standard- und erhöhte Anforderungen)."
-      },
-      {
-        "question": "Definiere 'Risiko' im IT-Kontext.",
-        "answer": "Die Möglichkeit des Eintritts künftiger Ereignisse, die nachteilige Auswirkungen (z. B. Verlustgefahren) zur Folge haben."
-      },
-      {
-        "question": "Wie lautet die Formel zur Berechnung des Risikos?",
-        "answer": "Risiko = Eintrittswahrscheinlichkeit x Auswirkung (Impact)."
-      },
-      {
-        "question": "Unterscheide qualitative von quantitativer Risikoanalyse.",
-        "answer": "Qualitativ nutzt Schätzungen (niedrig, mittel, hoch), quantitativ nutzt messbare Zahlenwerte (Kosten in Euro, Zeit, Prozent)."
-      },
-      {
-        "question": "Nenne die vier Strategien zur Risikominimierung.",
-        "answer": "Mitigation (Minimierung), Transference (Transfer an Dritte/Versicherung), Acceptance (Akzeptanz), Avoidance (Vermeidung)."
-      },
-      {
-        "question": "Gib ein Beispiel für 'Risk Mitigation'.",
-        "answer": "Das Platzieren eines Webservers in eine DMZ (Demilitarisierte Zone), um das interne Netzwerk zu schützen."
-      },
-      {
-        "question": "Was versteht man unter 'Adversarial Threats'?",
-        "answer": "Böswillige Bedrohungen durch menschliche Akteure, wie Hacker oder Malware-Entwickler."
-      }, 
-      {
-        "question": "Was ist das Hauptmerkmal der symmetrischen Verschlüsselung?",
-        "answer": "Es wird für die Verschlüsselung und Entschlüsselung derselbe Schlüssel verwendet."
-      },
-      {
-        "question": "Nenne einen Vorteil und einen Nachteil der symmetrischen Verschlüsselung.",
-        "answer": "Vorteil: Sehr hohe Geschwindigkeit. Nachteil: Sicherer Schlüsseltransport zwischen den Teilnehmern ist schwierig (Schlüsselverteilungsproblem)."
-      },
-      {
-        "question": "Wie funktioniert asymmetrische Verschlüsselung?",
-        "answer": "Es gibt ein Schlüsselpaar: Mit dem öffentlichen Schlüssel (Public Key) wird verschlüsselt, mit dem privaten Schlüssel (Private Key) wird entschlüsselt."
-      },
-      {
-        "question": "Was ist eine hybride Verschlüsselung (Beispiel PGP)?",
-        "answer": "Eine Kombination: Die Nachricht wird schnell symmetrisch verschlüsselt, und nur der dazu genutzte Session-Key wird asymmetrisch verschlüsselt übertragen."
-      },
-      {
-        "question": "Definiere 'Hash-Funktion'.",
-        "answer": "Eine Einwegfunktion, die Daten beliebiger Länge in eine Prüfsumme (Hash-Wert) fester Länge umwandelt. Eine Umkehrung ist nicht möglich."
-      },
-      {
-        "question": "Wozu dienen Hash-Werte in der IT-Sicherheit?",
-        "answer": "Zur Sicherstellung der Integrität (Erkennung von Änderungen) und zur digitalen Signatur."
-      },
-      {
-        "question": "Wie funktioniert die Caesar-Verschlüsselung?",
-        "answer": "Es handelt sich um eine Substitutions-Chiffre, bei der jeder Buchstabe im Alphabet um eine feste Anzahl von Stellen verschoben wird."
-      },
-      {
-        "question": "Was passiert bei einer XOR-Verschlüsselung, wenn Bit A = 1 und Bit B = 1 ist?",
-        "answer": "Das Ergebnis ist 0 (Exklusiv-Oder: Nur wenn genau ein Eingang 1 ist, ist das Ergebnis 1)."
-      },
-      {
-        "question": "Erkläre das Prinzip der Zwei-Faktor-Authentifizierung (2FA).",
-        "answer": "Die Identität wird durch zwei unterschiedliche Komponenten nachgewiesen (z. B. Wissen/Passwort und Besitz/Handy-Code)."
-      },
-      {
-        "question": "Was bedeuten die Begriffe AAA in der Zugriffskontrolle?",
-        "answer": "Authentication (Identitätsprüfung), Authorization (Zuweisung von Rechten), Accounting (Protokollierung/Zurechnung)."
-      },
-      {
-        "question": "Was unterscheidet einen Wurm von einem Trojaner?",
-        "answer": "Ein Wurm verbreitet sich selbstständig über Netzwerke; ein Trojaner versteckt sich in nützlichen Anwendungen und benötigt die Interaktion des Nutzers."
-      },
-      {
-        "question": "Was ist Ransomware?",
-        "answer": "Erpressungssoftware, die Daten verschlüsselt oder den Zugriff sperrt und für die Freigabe ein Lösegeld (meist Krypto) fordert."
-      },
-      {
-        "question": "Definiere 'Social Engineering'.",
-        "answer": "Die psychologische Manipulation von Menschen, um sie zur Preisgabe vertraulicher Informationen oder zur Installation von Schadsoftware zu bewegen."
-      },
-      {
-        "question": "Was ist ein 'Rootkit'?",
-        "answer": "Software, die darauf abzielt, Administratorrechte zu erlangen und ihre eigene Existenz sowie andere Schadsoftware im System zu verschleiern."
-      },
-      {
-        "question": "Was bewirkt 'Scareware'?",
-        "answer": "Sie verunsichert den Benutzer durch falsche Warnmeldungen (z. B. 'System infiziert'), um ihn zum Kauf nutzloser Software oder zur Dateneingabe zu drängen."
-      },
-      {
-        "question": "Nenne zwei wichtige Passwort-Richtlinien.",
-        "answer": "Mindestlänge (z. B. 12 Zeichen), Komplexität (Groß-/Kleinschreibung, Zahlen, Sonderzeichen) und begrenzte Fehlversuche."
-      }
+  {
+    "question": "Was ist der Unterschied zwischen Safety (Betriebssicherheit) und Security (Angriffssicherheit)?",
+    "answer": "Safety befasst sich mit der Funktionssicherheit und Unfallvermeidung (Schutz vor unbeabsichtigten Fehlern), während Security die Informationssicherheit und den Schutz vor böswilligen Angriffen und unbefugtem Zugang fokussiert."
+  },
+  {
+    "question": "Nenne die drei zentralen Schutzziele der Informationssicherheit (CIA-Triade).",
+    "answer": "Vertraulichkeit (Confidentiality), Integrität (Integrity) und Verfügbarkeit (Availability)."
+  },
+  {
+    "question": "Definiere das Schutzziel 'Integrität'.",
+    "answer": "Integrität garantiert die Korrektheit von Informationen und stellt sicher, dass Daten nicht unbemerkt oder unbefugt verändert wurden."
+  },
+  {
+    "question": "Was versteht man unter dem Begriff 'TOM' im Kontext der Datensicherheit?",
+    "answer": "TOM steht für Technische und Organisatorische Maßnahmen. Es sind Maßnahmen zum Schutz von Daten vor Verlust, Manipulation und unbefugtem Zugriff."
+  },
+  {
+    "question": "Warum ist 'Authentizität' ein wichtiges ergänzendes Schutzziel?",
+    "answer": "Es gewährleistet die Echtheit, Überprüfbarkeit und Vertrauenswürdigkeit eines Objekts oder Absenders."
+  },
+  {
+    "question": "Was beschreibt das Schutzziel der 'Verfügbarkeit'?",
+    "answer": "Dass Ressourcen und Informationen für berechtigte Benutzer zum geforderten Zeitpunkt zur Verfügung stehen."
+  },
+  {
+    "question": "Vergleiche Sachziele mit Formalzielen im Unternehmenskontext.",
+    "answer": "Sachziele beziehen sich auf die konkrete Leistungserstellung (z. B. IT-Sicherheit), während Formalziele den Erfolg dieser Leistung messen (z. B. ökonomische, ökologische oder soziale Ziele)."
+  },
+  {
+    "question": "Was passiert, wenn die Vertraulichkeit von Daten verletzt wird?",
+    "answer": "Sensible Informationen gelangen an unbefugte Dritte, was zu Reputationsverlust, rechtlichen Konsequenzen (DSGVO-Strafen) oder Wettbewerbsnachteilen führen kann."
+  },
+  {
+    "question": "Wer trägt die Gesamtverantwortung für die Informationssicherheit in einem Unternehmen?",
+    "answer": "Die oberste Leitungsebene (Geschäftsführung). Sie entscheidet über den Umgang mit Risiken und stellt Ressourcen bereit."
+  },
+  {
+    "question": "Welche Konsequenz hat die Delegation von Aufgaben durch die Geschäftsführung?",
+    "answer": "Nur die Durchführung der Aufgaben wird übertragen; die Letztverantwortung verbleibt immer bei der Leitung."
+  },
+  {
+    "question": "Was ist die Hauptaufgabe eines Informationssicherheitsbeauftragten (ISB)?",
+    "answer": "Der ISB koordiniert die Informationssicherheit, erstellt Sicherheitsleitlinien und berichtet an die oberste Leitung."
+  },
+  {
+    "question": "Wann ist ein Unternehmen nach DSGVO (§ 38 BDSG) zur Bestellung eines Datenschutzbeauftragten (DSB) verpflichtet?",
+    "answer": "Wenn in der Regel mindestens 20 Personen ständig mit der automatisierten Verarbeitung personenbezogener Daten beschäftigt sind."
+  },
+  {
+    "question": "Welche Rollen stimmen sich im 'Sicherheitsdreieck' typischerweise ab?",
+    "answer": "Der ISB, der Datenschutzbeauftragte (DSB) und der Qualitätsmanagementbeauftragte (QMB) unter Berichterstattung an die Geschäftsführung."
+  },
+  {
+    "question": "Nenne drei operative Aufgaben der obersten Leitungsebene in der IT-Sicherheit.",
+    "answer": "Festlegung von Strategien, Bereitstellung von Budget/Personal und Verabschiedung von Richtlinien."
+  },
+  {
+    "question": "Welches Gesetz regelt primär den Schutz kritischer Infrastrukturen (KRITIS)?",
+    "answer": "Das IT-Sicherheitsgesetz (IT-SiG) bzw. das BSI-Gesetz (BSIG)."
+  },
+  {
+    "question": "Nenne zwei Grundprinzipien der DSGVO.",
+    "answer": "Zweckbindung, Datenminimierung (Datensparsamkeit), Speicherbegrenzung und Rechenschaftspflicht."
+  },
+  {
+    "question": "Welches Recht hat eine Person laut DSGVO, wenn ihre Daten veraltet sind?",
+    "answer": "Das Recht auf Berichtigung."
+  },
+  {
+    "question": "Warum ist das Urheberrechtsgesetz (UrhG) für IT-Mitarbeiter relevant?",
+    "answer": "Es untersagt die Nutzung oder Verbreitung von Software ohne gültige Lizenz."
+  },
+  {
+    "question": "Was ist der ISO/IEC 27001 Standard?",
+    "answer": "Ein international anerkannter Standard für Informationssicherheits-Managementsysteme (ISMS)."
+  },
+  {
+    "question": "Wann können Webseitenbetreiber für externe Links haftbar gemacht werden?",
+    "answer": "Wenn sie bewusst auf rechtswidrige Inhalte verlinken oder sich diese Inhalte zu eigen machen."
+  },
+  {
+    "question": "Was ist das IT-Grundschutz-Kompendium?",
+    "answer": "Eine vom BSI herausgegebene Basis für IT-Sicherheit, die Bausteine mit Anforderungen für verschiedene Schichten (z. B. Anwendungen, Systeme, Netze) enthält."
+  },
+  {
+    "question": "Erkläre den PDCA-Zyklus im Kontext des Sicherheitsmanagements.",
+    "answer": "Plan (Planen), Do (Umsetzen), Check (Überprüfen), Act (Verbessern/Handeln). Er dient der kontinuierlichen Optimierung des ISMS."
+  },
+  {
+    "question": "Welche drei Schutzbedarfskategorien definiert das BSI?",
+    "answer": "Normal (begrenzte Auswirkungen), Hoch (beträchtliche Auswirkungen) und Sehr Hoch (existentiell bedrohliche/katastrophale Auswirkungen)."
+  },
+  {
+    "question": "Was unterscheidet Schadenskategorien von Schutzbedarfskategorien?",
+    "answer": "Schadenskategorien bewerten das konkrete Schadensausmaß eines Ausfalls (niedrig bis sehr hoch), während Schutzbedarfskategorien die generelle Sensibilität eines Objekts klassifizieren."
+  },
+  {
+    "question": "In welche vier Bereiche lässt sich ein Informationsverbund nach BSI unterteilen?",
+    "answer": "Organisatorisch, Infrastruktur, Personell und Technisch."
+  },
+  {
+    "question": "Was enthalten die Bausteine des IT-Grundschutzes neben der Beschreibung?",
+    "answer": "Spezifische Gefährdungslagen und Anforderungen (Basis-, Standard- und erhöhte Anforderungen)."
+  },
+  {
+    "question": "Definiere 'Risiko' im IT-Kontext.",
+    "answer": "Die Möglichkeit des Eintritts künftiger Ereignisse, die nachteilige Auswirkungen (z. B. Verlustgefahren) zur Folge haben."
+  },
+  {
+    "question": "Wie lautet die Formel zur Berechnung des Risikos?",
+    "answer": "Risiko = Eintrittswahrscheinlichkeit x Auswirkung (Impact)."
+  },
+  {
+    "question": "Unterscheide qualitative von quantitativer Risikoanalyse.",
+    "answer": "Qualitativ nutzt Schätzungen (niedrig, mittel, hoch), quantitativ nutzt messbare Zahlenwerte (Kosten in Euro, Zeit, Prozent)."
+  },
+  {
+    "question": "Nenne die vier Strategien zur Risikominimierung.",
+    "answer": "Mitigation (Minimierung), Transference (Transfer an Dritte/Versicherung), Acceptance (Akzeptanz), Avoidance (Vermeidung)."
+  },
+  {
+    "question": "Gib ein Beispiel für 'Risk Mitigation'.",
+    "answer": "Das Platzieren eines Webservers in eine DMZ (Demilitarisierte Zone), um das interne Netzwerk zu schützen."
+  },
+  {
+    "question": "Was versteht man unter 'Adversarial Threats'?",
+    "answer": "Böswillige Bedrohungen durch menschliche Akteure, wie Hacker oder Malware-Entwickler."
+  },
+  {
+    "question": "Was ist das Hauptmerkmal der symmetrischen Verschlüsselung?",
+    "answer": "Es wird für die Verschlüsselung und Entschlüsselung derselbe Schlüssel verwendet."
+  },
+  {
+    "question": "Nenne einen Vorteil und einen Nachteil der symmetrischen Verschlüsselung.",
+    "answer": "Vorteil: Sehr hohe Geschwindigkeit. Nachteil: Sicherer Schlüsseltransport zwischen den Teilnehmern ist schwierig (Schlüsselverteilungsproblem)."
+  },
+  {
+    "question": "Wie funktioniert asymmetrische Verschlüsselung?",
+    "answer": "Es gibt ein Schlüsselpaar: Mit dem öffentlichen Schlüssel (Public Key) wird verschlüsselt, mit dem privaten Schlüssel (Private Key) wird entschlüsselt."
+  },
+  {
+    "question": "Was ist eine hybride Verschlüsselung (Beispiel PGP)?",
+    "answer": "Eine Kombination: Die Nachricht wird schnell symmetrisch verschlüsselt, und nur der dazu genutzte Session-Key wird asymmetrisch verschlüsselt übertragen."
+  },
+  {
+    "question": "Definiere 'Hash-Funktion'.",
+    "answer": "Eine Einwegfunktion, die Daten beliebiger Länge in eine Prüfsumme (Hash-Wert) fester Länge umwandelt. Eine Umkehrung ist nicht möglich."
+  },
+  {
+    "question": "Wozu dienen Hash-Werte in der IT-Sicherheit?",
+    "answer": "Zur Sicherstellung der Integrität (Erkennung von Änderungen) und zur digitalen Signatur."
+  },
+  {
+    "question": "Wie funktioniert die Caesar-Verschlüsselung?",
+    "answer": "Es handelt sich um eine Substitutions-Chiffre, bei der jeder Buchstabe im Alphabet um eine feste Anzahl von Stellen verschoben wird."
+  },
+  {
+    "question": "Was passiert bei einer XOR-Verschlüsselung, wenn Bit A = 1 und Bit B = 1 ist?",
+    "answer": "Das Ergebnis ist 0 (Exklusiv-Oder: Nur wenn genau ein Eingang 1 ist, ist das Ergebnis 1)."
+  },
+  {
+    "question": "Erkläre das Prinzip der Zwei-Faktor-Authentifizierung (2FA).",
+    "answer": "Die Identität wird durch zwei unterschiedliche Komponenten nachgewiesen (z. B. Wissen/Passwort und Besitz/Handy-Code)."
+  },
+  {
+    "question": "Was bedeuten die Begriffe AAA in der Zugriffskontrolle?",
+    "answer": "Authentication (Identitätsprüfung), Authorization (Zuweisung von Rechten), Accounting (Protokollierung/Zurechnung)."
+  },
+  {
+    "question": "Was unterscheidet einen Wurm von einem Trojaner?",
+    "answer": "Ein Wurm verbreitet sich selbstständig über Netzwerke; ein Trojaner versteckt sich in nützlichen Anwendungen und benötigt die Interaktion des Nutzers."
+  },
+  {
+    "question": "Was ist Ransomware?",
+    "answer": "Erpressungssoftware, die Daten verschlüsselt oder den Zugriff sperrt und für die Freigabe ein Lösegeld (meist Krypto) fordert."
+  },
+  {
+    "question": "Definiere 'Social Engineering'.",
+    "answer": "Die psychologische Manipulation von Menschen, um sie zur Preisgabe vertraulicher Informationen oder zur Installation von Schadsoftware zu bewegen."
+  },
+  {
+    "question": "Was ist ein 'Rootkit'?",
+    "answer": "Software, die darauf abzielt, Administratorrechte zu erlangen und ihre eigene Existenz sowie andere Schadsoftware im System zu verschleiern."
+  },
+  {
+    "question": "Was bewirkt 'Scareware'?",
+    "answer": "Sie verunsichert den Benutzer durch falsche Warnmeldungen (z. B. 'System infiziert'), um ihn zum Kauf nutzloser Software oder zur Dateneingabe zu drängen."
+  },
+  {
+    "question": "Nenne zwei wichtige Passwort-Richtlinien.",
+    "answer": "Mindestlänge (z. B. 12 Zeichen), Komplexität (Groß-/Kleinschreibung, Zahlen, Sonderzeichen) und begrenzte Fehlversuche."
+  },
+  {
+    "question": "Was ist die Kern-Definition von Social Engineering?",
+    "answer": "Social Engineering ist die zwischenmenschliche Beeinflussung mit dem Ziel, bei Personen bestimmte Verhaltensweisen hervorzurufen, um vertrauliche Informationen zu erhalten oder Sicherheitssysteme zu umgehen."
+  },
+  {
+    "question": "Welche menschlichen Schwächen werden beim Social Engineering häufig ausgenutzt?",
+    "answer": "Angreifer nutzen gezielt Unsicherheit, Eitelkeit, Gier oder Hilfsbereitschaft aus, um das Vertrauen ihrer Opfer zu gewinnen."
+  },
+  {
+    "question": "Nenne die sieben psychologischen Prinzipien des Social Engineering.",
+    "answer": "Die Prinzipien sind: Authority (Autorität), Intimidation (Einschüchterung), Consensus (Gruppenzwang), Familiarity (Vertrautheit), Trust (Vertrauen), Urgency (Dringlichkeit) und Scarcity (Knappheit)."
+  },
+  {
+    "question": "Erkläre den Unterschied zwischen Tailgating und unautorisiertem Zugang.",
+    "answer": "Tailgating bedeutet, sich physisch an eine berechtigte Person 'dranzuhängen', um in geschützte Bereiche zu gelangen, während unautorisierter Zugang den allgemeinen Zutritt zu Räumen ohne Berechtigung beschreibt."
+  },
+  {
+    "question": "Welche Schutzmaßnahme hilft effektiv gegen Schulter-Surfing?",
+    "answer": "Der Einsatz von Sichtschutzfolien auf Monitoren oder Spiegeln zur Erweiterung des rückwärtigen Blickfeldes verhindert das Ausspähen von Informationen über die Schulter."
+  },
+  {
+    "question": "Was versteht man unter 'Dumpster Diving' und wie schützt man sich davor?",
+    "answer": "Das Suchen nach sensiblen Daten im Müll (z. B. Papiertonnen). Schutz bietet das konsequente Schreddern von Dokumenten und die physische Zerstörung ausgedienter Hardware."
+  },
+  {
+    "question": "Vergleiche Phishing mit Spear Phishing.",
+    "answer": "Phishing ist eine Massen-Beschaffung von Daten über E-Mails/Websites, während Spear Phishing ein gezielter Angriff auf eine bestimmte Person ist, oft unter Bezugnahme auf reale frühere Nachrichten."
+  },
+  {
+    "question": "Was ist ein 'Whaling'-Angriff (CEO-Fraud)?",
+    "answer": "Ein gezielter Angriff, bei dem sich Cyberkriminelle als hochrangige Führungskräfte ausgeben, um Mitarbeiter zu Geldüberweisungen oder zur Preisgabe vertraulicher Daten zu verleiten."
+  },
+  {
+    "question": "Definiere Vishing und Hoax.",
+    "answer": "Vishing ist Phishing über das Telefon (Voice Phishing). Ein Hoax ist eine gezielte Falschmeldung oder ein Kettenbrief, der über Webseiten oder E-Mails verbreitet wird."
+  },
+  {
+    "question": "Wie funktioniert eine 'Watering Hole Attack'?",
+    "answer": "Der Angreifer infiziert eine vom Zielunternehmen häufig besuchte Website mit Malware, um beim Besuch der Mitarbeiter deren Systeme zu kompromittieren."
+  },
+  {
+    "question": "Was bedeutet die Abkürzung TOM im Datenschutzrecht?",
+    "answer": "TOM steht für Technische und Organisatorische Maßnahmen, die gemäß gesetzlichen Vorgaben (wie §64 BDSG) zum Schutz personenbezogener Daten umgesetzt werden müssen."
+  },
+  {
+    "question": "Was ist das Ziel der Zutrittskontrolle?",
+    "answer": "Sie soll Unbefugten den physischen Zutritt zu Datenverarbeitungsanlagen verwehren, beispielsweise durch abschließbare Gebäude oder Besucherregelungen."
+  },
+  {
+    "question": "Erkläre den Unterschied zwischen Zugangskontrolle und Zugriffskontrolle.",
+    "answer": "Zugangskontrolle verhindert die unbefugte Nutzung von IT-Systemen (z. B. durch 2FA), während Zugriffskontrolle sicherstellt, dass berechtigte Nutzer nur auf Daten zugreifen, für die sie eine Leseberechtigung haben."
+  },
+  {
+    "question": "Was beinhaltet die Datenträgerkontrolle?",
+    "answer": "Maßnahmen zur Verhinderung des unbefugten Lesens, Kopierens oder Löschens von Datenträgern, z. B. durch Verschlüsselung mobiler Medien oder eine strikte Datenträgerverwaltung."
+  },
+  {
+    "question": "Welchem Zweck dient die Eingabekontrolle?",
+    "answer": "Sie gewährleistet durch Protokollierung von Log-Daten, dass nachträglich überprüft werden kann, wer welche Daten zu welcher Zeit eingegeben oder verändert hat."
+  },
+  {
+    "question": "Was versteht man unter Transportkontrolle (Weitergabekontrolle)?",
+    "answer": "Die Sicherstellung der Vertraulichkeit und Integrität von Daten während der Übertragung (z. B. VPN, Verschlüsselung) und die Nachvollziehbarkeit der Übermittlung via Verfahrensverzeichnis."
+  },
+  {
+    "question": "Definiere das Ziel der 'Wiederherstellbarkeit' innerhalb der TOM.",
+    "answer": "Es stellt sicher, dass personenbezogene Daten nach einem Störungsfall durch Backup- und Recovery-Konzepte zeitnah wieder verfügbar gemacht werden können."
+  },
+  {
+    "question": "Was ist die Auftragskontrolle im Kontext von Dienstleistern?",
+    "answer": "Die vertragliche Absicherung (AV-Vertrag), dass ein Auftragsverarbeiter Daten strikt nach den Weisungen des Auftraggebers verarbeitet."
+  },
+  {
+    "question": "Erkläre das Prinzip der Trennbarkeit in der Datenverarbeitung.",
+    "answer": "Daten, die zu unterschiedlichen Zwecken erhoben wurden, müssen logisch oder physisch getrennt verarbeitet werden (z. B. durch Mandantenfähigkeit)."
+  },
+  {
+    "question": "Nenne drei BSI-Bausteine für den IT-Grundschutz am Arbeitsplatz.",
+    "answer": "Beispiele sind INF.7 (Büroarbeitsplatz), SYS.2.1 (Allgemeiner Client) und APP.1.1 (Office-Produkte)."
+  },
+  {
+    "question": "Welche vier Arbeitsschritte umfasst eine Schutzbedarfsanalyse (SBA)?",
+    "answer": "1. Sicherheitsleitlinie entwickeln, 2. Sicherheitskonzept erstellen, 3. Strukturanalyse durchführen, 4. Schutzbedarfsanalyse (SBA) im engeren Sinne."
+  },
+  {
+    "question": "Wer trägt die Hauptverantwortung für die Sicherheitsleitlinie?",
+    "answer": "Die Erstellung und Verabschiedung der Sicherheitsleitlinie als zentrales Grundsatzdokument ist eine Kernaufgabe der obersten Leitung."
+  },
+  {
+    "question": "Aus welchen vier Komponenten besteht ein Informationsverbund nach BSI?",
+    "answer": "Er setzt sich aus organisatorischen (Fachbereiche), infrastrukturellen (Gebäude), personellen (Mitarbeiter) und technischen (IT-Systeme) Komponenten zusammen."
+  },
+  {
+    "question": "In welche drei Kategorien wird der Schutzbedarf beim BSI unterteilt?",
+    "answer": "Normal (begrenzte Schäden), Hoch (beträchtliche Schäden) und Sehr Hoch (existenzbedrohende/katastrophale Schäden)."
+  },
+  {
+    "question": "Erkläre das 'Maximumprinzip' bei der Schutzbedarfsfeststellung.",
+    "answer": "Ein IT-System erhält den Schutzbedarf der Anwendung mit dem höchsten Schutzbedarf, die auf diesem System ausgeführt wird."
+  },
+  {
+    "question": "Was beschreibt der 'Kumulationseffekt' bei virtuellen Systemen?",
+    "answer": "Wenn mehrere Anwendungen mit mittlerem Schutzbedarf auf einem Server gebündelt werden, kann das Gesamtschadenspotenzial steigen, was eine höhere Einstufung des Servers rechtfertigt."
+  },
+  {
+    "question": "Was ist der 'Verteilungseffekt' in der Schutzbedarfsanalyse?",
+    "answer": "Durch Redundanz oder Lastenausgleich (z. B. mehrere Server für eine Anwendung) sinkt das Schadenspotenzial bei Ausfall einer einzelnen Komponente, wodurch deren Schutzbedarf sinken kann."
+  },
+  {
+    "question": "Welche Grundwerte werden bei der SBA kategorisiert?",
+    "answer": "Die Schutzbedarfsfeststellung erfolgt immer in Bezug auf die Grundwerte Vertraulichkeit, Integrität und Verfügbarkeit."
+  },
+  {
+    "question": "Nenne drei Gefährdungen für mobile Datenträger.",
+    "answer": "Diebstahl/Verlust des Trägers, Verbreitung von Schadprogrammen und unzureichende Kenntnis der Mitarbeiter über Sicherheitsregelungen."
+  },
+  {
+    "question": "Nenne drei Schutzmaßnahmen für den Umgang mit mobilen Datenträgern.",
+    "answer": "Verschlüsselung der Daten, Einführung einer Datenträgerverwaltung und Sensibilisierung der Mitarbeiter."
+  },
+  {
+    "question": "Was besagt der sogenannte 'Hackerparagraph' (§202c StGB)?",
+    "answer": "Er stellt das Vorbereiten des Ausspähens oder Abfangens von Daten unter Strafe, etwa durch das Herstellen oder Verbreiten von Passwörtern oder Hacker-Tools."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen einem White Box und einem Black Box Test?",
+    "answer": "Beim White Box Test hat der Hacker alle Informationen über die Infrastruktur, beim Black Box Test hat er keinerlei Vorabinformationen und muss diese selbst beschaffen."
+  },
+  {
+    "question": "Definiere den Begriff 'Double Blind' Hacking-Test.",
+    "answer": "Ein realitätsnaher Test, bei dem weder der Hacker noch der Verteidiger (außer der Führungsebene) Informationen über den Angriff haben."
+  },
+  {
+    "question": "Nenne die fünf Phasen des Hacking-Prozesses.",
+    "answer": "1. Footprinting (Info-Beschaffung), 2. Scanning, 3. Enumeration, 4. Zugang verschaffen (Exploitation), 5. Spuren verwischen."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen passivem und aktivem Footprinting?",
+    "answer": "Passives Footprinting sammelt öffentlich zugängliche Informationen (z. B. via Google), während aktives Footprinting direkt mit den Zielsystemen interagiert (z. B. DNS-Abfragen)."
+  },
+  {
+    "question": "Welche Ziele verfolgt der Scanning-Prozess?",
+    "answer": "Identifikation aktiver Systeme im Netzwerk, Finden offener Ports sowie Erkennen von Diensten (Services), deren Versionen und potenziellen Schwachstellen."
+  },
+  {
+    "question": "Nenne drei Methoden des Password Hacking.",
+    "answer": "Dictionary-Angriffe (Wörterbuch), Brute-Force-Angriffe (Durchprobieren aller Kombinationen) und Rainbow-Table-Angriffe (vorberechnete Hashes)."
+  },
+  {
+    "question": "Was versteht man unter vertikaler Privilegien-Eskalation?",
+    "answer": "Ein Angreifer nutzt einen Fehler aus, um von einem Benutzerkonto mit niedrigen Rechten zu einem Konto mit höheren Rechten (z. B. Admin/Kernel) aufzusteigen."
+  },
+  {
+    "question": "Definiere das Urheberrecht (UrhG).",
+    "answer": "Es schützt das geistige Eigentum an einem Werk und ist im deutschsprachigen Raum untrennbar mit der Person des Urhebers verbunden; ein Verzicht ist unmöglich."
+  },
+  {
+    "question": "Was unterscheidet das Copyright vom deutschen Urheberrecht?",
+    "answer": "Das Copyright fokussiert auf das wirtschaftliche Verwertungsrecht an der Vervielfältigung; es kann vom Autor vollständig auf Dritte übertragen werden."
+  },
+  {
+    "question": "Was schützt das Markenrecht?",
+    "answer": "Es schützt Bezeichnungen von Produkten und Unternehmen (z. B. Namen, Logos, Zahlen, Klänge) im geschäftlichen Verkehr."
+  },
+  {
+    "question": "Vergleiche einfaches mit ausschließlichem Nutzungsrecht.",
+    "answer": "Ein einfaches Nutzungsrecht erlaubt die Nutzung neben dem Urheber und anderen, während das ausschließliche Nutzungsrecht die Nutzung unter Ausschluss aller anderen (oft inklusive des Urhebers) gestattet."
+  },
+  {
+    "question": "Wofür stehen die Creative-Commons-Kürzel BY, NC und ND?",
+    "answer": "BY steht für Namensnennung, NC für nicht-kommerzielle Nutzung (Non-Commercial) und ND für keine Bearbeitung (No Derivatives)."
+  },
+  {
+    "question": "Was ist eine EULA?",
+    "answer": "Eine End-User License Agreement, die die Bedingungen für die Benutzung einer Software zwischen dem Hersteller und dem Endnutzer regelt."
+  },
+  {
+    "question": "Nenne drei Arten von Software-Lizenzen.",
+    "answer": "Propriitäre Software (geschlossener Code), Open Source (freier Quellcode) und Freeware (kostenlos, aber oft geschlossener Code)."
+  },
+  {
+    "question": "Was ist eine 'Named User License'?",
+    "answer": "Eine nutzergebundene Lizenz, die einer spezifisch namentlich genannten Person das Recht zur Nutzung der Software einräumt."
+  },
+  {
+    "question": "Welche Aufgabe hat ein CISO (Chief Information Security Officer)?",
+    "answer": "Er trägt die strategische Gesamtverantwortung für die Informationssicherheit in einer Organisation und steuert das ISMS."
+  },
+  {
+    "question": "Nenne drei international anerkannte IT-Sicherheitszertifizierungen.",
+    "answer": "CISSP (Management), CEH (Ethical Hacking) und CompTIA Security+ (Grundlagen)."
+  },
+  {
+    "question": "Was ist das Ziel eines Penetrationstesters?",
+    "answer": "Er führt im Auftrag eines Unternehmens kontrollierte Hackerangriffe durch, um Sicherheitslücken aufzudecken und zu bewerten."
+  },
+  {
+    "question": "Was ist ein 'Hoax' im Zusammenhang mit Social Engineering?",
+    "answer": "Eine bewusste Falschmeldung (z.B. Kettenbriefe), die Nutzer zu unüberlegten Handlungen verleiten soll."
+  },
+  {
+    "question": "Was beinhaltet die 'Strukturanalyse' im BSI-Prozess?",
+    "answer": "Die systematische Aufbereitung des Informationsverbunds, inklusive vernetzter Komponenten, Anwendungen und Betriebsumgebungen."
+  },
+  {
+    "question": "Warum sind Stellenausschreibungen für Hacker wertvoll?",
+    "answer": "Sie enthalten oft detaillierte Informationen über die im Unternehmen eingesetzten Technologien und Infrastrukturen."
+  }
 ]
